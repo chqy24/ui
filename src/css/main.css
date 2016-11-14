@@ -1,0 +1,16 @@
+.c-dropdown ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.c-dropdown li {
+  height: 24px;
+  line-height: 24px;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%; }
+
+.demo .box h1 {
+  font-size: 20px; }

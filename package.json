@@ -1,0 +1,24 @@
+{
+  "name": "ui",
+  "version": "0.0.0",
+  "description": "ui library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chqy24/ui.git"
+  },
+  "author": "cqy24@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chqy24/ui/issues"
+  },
+  "homepage": "https://github.com/chqy24/ui#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^2.3.2"
+  }
+}

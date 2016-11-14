@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>UI Demo</title>
+	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="lib/angular/angular.min.js"></script>
+	<script src="lib/lodash/dist/lodash.min.js"></script>
+	
+
+	<script src="index.js"></script>
+	<script src="components/index.js"></script>
+	<script src="components/dropdown/index.js"></script>
+</head>
+<body class="demo" data-ng-app="demo">
+	<div class="box">
+		<h1>Dropdowns</h1>
+		<div class="wrap" data-ng-controller = "dropdownCtrl as vm">
+			<div c-dropdown list="vm.list" options="vm.options"></div>
+		</div>
+	</div>
+</body>
+</html>
